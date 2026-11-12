@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sachin Gangwar | Aspiring Web Developer &amp; BCA Student</title>
+  <meta name="description" content="Online resume and portfolio of Sachin Gangwar, a second-year BCA student at Invertis University learning web development with HTML, CSS and JavaScript. Open to internships." />
+  <meta name="author" content="Sachin Gangwar" />
+  <meta name="theme-color" content="#080B14" />
+  <meta property="og:title" content="Sachin Gangwar | Aspiring Web Developer &amp; BCA Student" />
+  <meta property="og:description" content="Portfolio and online resume of Sachin Gangwar, BCA student at Invertis University." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Sachin Gangwar","jobTitle":"Aspiring Web Developer","email":"mailto:sachingangwar9634@gmail.com","alumniOf":"Invertis University","sameAs":["https://github.com/sachingangwar8755","https://www.linkedin.com/in/sachin-gangwar-801185385"]}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="bg-glow" aria-hidden="true"><span></span><span></span><span></span></div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <nav class="container nav-inner" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Sachin Gangwar, home">SG<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="assets/Sachin_Gangwar_Resume.pdf" class="btn btn-small btn-primary" download>Download Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-hello">Welcome to my online resume</p>
+          <h1>Hi, I'm <span class="gradient-text">Sachin Gangwar</span></h1>
+          <p class="hero-sub">Aspiring Web Developer &amp; BCA Student</p>
+          <p class="typing-line" aria-live="off">
+            <span id="typed" aria-hidden="true"></span><span class="cursor" aria-hidden="true"></span>
+            <span class="sr-only">Aspiring Web Developer, BCA Student, Programming Enthusiast, Creative Editor</span>
+          </p>
+          <p class="hero-text">
+            I'm a second-year BCA student at Invertis University who enjoys building things for the web
+            and improving a little every day. I'm looking for an internship where I can learn from
+            experienced developers and work on real projects.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="assets/Sachin_Gangwar_Resume.pdf" class="btn btn-ghost" download>Download Resume</a>
+          </div>
+          <div class="socials" aria-label="Social links">
+            <a href="https://github.com/sachingangwar8755" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.3 1 .1-.7.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/sachin-gangwar-801185385" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6h.1c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.1 20.5H3.6V9h3.5v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg>
+            </a>
+            <a href="mailto:sachingangwar9634@gmail.com" aria-label="Send an email">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1.6 2L12 12.6 19.4 7H4.6zM20 8.9l-8 6-8-6V17h16V8.9z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Developer-themed visual: animated code editor -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="code-window">
+            <div class="code-bar"><i></i><i></i><i></i><span>sachin.js</span></div>
+            <pre class="code-body"><code><span class="c-k">const</span> <span class="c-v">sachin</span> = {
+  <span class="c-p">role</span>: <span class="c-s">"Aspiring Web Developer"</span>,
+  <span class="c-p">studying</span>: <span class="c-s">"BCA, 2nd Year"</span>,
+  <span class="c-p">university</span>: <span class="c-s">"Invertis University"</span>,
+  <span class="c-p">learning</span>: [<span class="c-s">"HTML"</span>, <span class="c-s">"CSS"</span>, <span class="c-s">"JavaScript"</span>],
+  <span class="c-p">lookingFor</span>: <span class="c-s">"Internship"</span>
+};
+
+<span class="c-k">function</span> <span class="c-f">keepLearning</span>() {
+  <span class="c-k">return</span> <span class="c-s">"building, every day"</span>;
+}</code></pre>
+          </div>
+          <div class="float-chip chip-1">&lt;/&gt;</div>
+          <div class="float-chip chip-2">{ }</div>
+          <div class="float-chip chip-3">JS</div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll to About section"><span></span></a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>About me</h2>
+          <p>A little about who I am and what I'm working toward.</p>
+        </header>
+        <div class="about-grid">
+          <div class="glass reveal">
+            <p>Hello! I'm Sachin Gangwar, a second-year BCA student at Invertis University. I'm passionate about technology, programming, and web development. I enjoy learning new technologies, building creative projects, and improving my technical skills. My goal is to become a skilled developer and gain real-world experience through internships and practical projects.</p>
+            <h3>Career objective</h3>
+            <p>To obtain an internship opportunity where I can apply my programming and web development knowledge, improve my technical abilities, collaborate with experienced professionals, and contribute to meaningful projects.</p>
+          </div>
+          <div class="glass reveal">
+            <h3>Personal information</h3>
+            <dl class="info-list">
+              <div><dt>Name</dt><dd>Sachin Gangwar</dd></div>
+              <div><dt>Title</dt><dd>Aspiring Web Developer | BCA Student</dd></div>
+              <div><dt>University</dt><dd>Invertis University</dd></div>
+              <div><dt>Course</dt><dd>Bachelor of Computer Applications (BCA)</dd></div>
+              <div><dt>Year</dt><dd>2nd Year</dd></div>
+              <div><dt>Location</dt><dd>Uttar Pradesh, India</dd></div>
+              <div><dt>Email</dt><dd><a href="mailto:sachingangwar9634@gmail.com">sachingangwar9634@gmail.com</a></dd></div>
+              <div><dt>Phone</dt><dd><a href="tel:+918755682940">+91 8755682940</a></dd></div>
+            </dl>
+          </div>
+        </div>
+
+        <!-- Interests -->
+        <div class="interests reveal" id="interests">
+          <h3>Interests</h3>
+          <ul class="chip-list">
+            <li>Web Development</li>
+            <li>Game Development</li>
+            <li>Programming</li>
+            <li>Technology and Innovation</li>
+            <li>Photo and Video Editing</li>
+            <li>Learning New Technologies</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>Technical Skills</h2>
+          <p>The tools and subjects I work with, grouped by area. Skills marked Basic or learning are the ones I'm still building.</p>
+        </header>
+        <div class="skills-grid">
+        <article class="glass skill-card reveal">
+          <div class="skill-top">
+            <div class="skill-icon" aria-hidden="true">{ }</div>
+            <h3>Programming Languages</h3>
+          </div>
+          <ul class="chip-list skill-chips">
+            <li>C (Basic)</li>
+            <li>Python</li>
+          </ul>
+        </article>
+        <article class="glass skill-card reveal">
+          <div class="skill-top">
+            <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+            <h3>Web Technologies</h3>
+          </div>
+          <ul class="chip-list skill-chips">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript (learning)</li>
+          </ul>
+        </article>
+        <article class="glass skill-card reveal">
+          <div class="skill-top">
+            <div class="skill-icon" aria-hidden="true">DB</div>
+            <h3>Database Management</h3>
+          </div>
+          <ul class="chip-list skill-chips">
+            <li>DBMS</li>
+            <li>SQL (learning)</li>
+          </ul>
+        </article>
+        <article class="glass skill-card reveal">
+          <div class="skill-top">
+            <div class="skill-icon" aria-hidden="true">Git</div>
+            <h3>Developer Tools</h3>
+          </div>
+          <ul class="chip-list skill-chips">
+            <li>Visual Studio Code</li>
+            <li>Git</li>
+            <li>GitHub</li>
+          </ul>
+        </article>
+        <article class="glass skill-card reveal">
+          <div class="skill-top">
+            <div class="skill-icon" aria-hidden="true">CS</div>
+            <h3>Core Computer Science</h3>
+          </div>
+          <ul class="chip-list skill-chips">
+            <li>Data Structures</li>
+            <li>Operating Systems</li>
+            <li>Computer Fundamentals</li>
+          </ul>
+        </article>
+        <article class="glass skill-card reveal">
+          <div class="skill-top">
+            <div class="skill-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="10" r="1.8"/><path d="M21 16l-5-5-8 9"/></svg></div>
+            <h3>Creative Skills</h3>
+          </div>
+          <ul class="chip-list skill-chips">
+            <li>Photo Editing</li>
+            <li>Video Editing</li>
+          </ul>
+        </article>
+        <article class="glass skill-card reveal">
+          <div class="skill-top">
+            <div class="skill-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg></div>
+            <h3>Development Interests</h3>
+          </div>
+          <ul class="chip-list skill-chips">
+            <li>Web Development</li>
+            <li>Game Development</li>
+          </ul>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>Projects</h2>
+          <p>Things I've built while learning. More will be added as I make them.</p>
+        </header>
+        <!-- Cards are generated from the PROJECTS array in script.js -->
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>Education</h2>
+          <p>Where I'm studying now and where I studied before.</p>
+        </header>
+        <div class="timeline">
+          <article class="glass timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-top">
+              <h3>Bachelor of Computer Applications (BCA)</h3>
+              <span class="badge">Currently in 2nd Year</span>
+            </div>
+            <p class="timeline-place">Invertis University, Uttar Pradesh, India</p>
+            <p class="timeline-score">First year: <strong>64.43%</strong></p>
+          </article>
+          <article class="glass timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-top">
+              <h3>12th (Intermediate)</h3>
+              <span class="badge">62%</span>
+            </div>
+            <p class="timeline-place">G.T.R Inter College</p>
+          </article>
+          <article class="glass timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-top">
+              <h3>10th (High School)</h3>
+              <span class="badge">73%</span>
+            </div>
+            <p class="timeline-place">G.T.R Inter College</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>Contact</h2>
+          <p>Looking for an intern who's eager to learn? I'd love to hear from you.</p>
+        </header>
+        <div class="contact-grid">
+          <div class="contact-list reveal">
+            <a class="glass contact-card" href="mailto:sachingangwar9634@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1.6 2L12 12.6 19.4 7H4.6zM20 8.9l-8 6-8-6V17h16V8.9z"/></svg>
+              <span><small>Email</small>sachingangwar9634@gmail.com</span>
+            </a>
+            <a class="glass contact-card" href="tel:+918755682940">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.4 2.3.6 3.6.6a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.3.2 2.5.6 3.6a1 1 0 0 1-.25 1z"/></svg>
+              <span><small>Phone</small>+91 8755682940</span>
+            </a>
+            <a class="glass contact-card" href="https://github.com/sachingangwar8755" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.3 1 .1-.7.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>
+              <span><small>GitHub</small>github.com/sachingangwar8755</span>
+            </a>
+            <a class="glass contact-card" href="https://www.linkedin.com/in/sachin-gangwar-801185385" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6h.1c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.1 20.5H3.6V9h3.5v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg>
+              <span><small>LinkedIn</small>Sachin Gangwar</span>
+            </a>
+          </div>
+
+          <form class="glass contact-form reveal" id="contactForm" novalidate>
+            <h3>Send a message</h3>
+            <div class="field">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required minlength="2" aria-describedby="nameError" />
+              <p class="error" id="nameError" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="email">Your email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="emailError" />
+              <p class="error" id="emailError" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required minlength="10" aria-describedby="messageError"></textarea>
+              <p class="error" id="messageError" role="alert"></p>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <p class="form-status" id="formStatus" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Sachin Gangwar. All rights reserved.</p>
+      <div class="socials small">
+        <a href="https://github.com/sachingangwar8755" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.3 1 .1-.7.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/sachin-gangwar-801185385" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6h.1c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.1 20.5H3.6V9h3.5v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg>
+        </a>
+        <a href="mailto:sachingangwar9634@gmail.com" aria-label="Send an email">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1.6 2L12 12.6 19.4 7H4.6zM20 8.9l-8 6-8-6V17h16V8.9z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5l7 7-1.4 1.4L13 8.8V20h-2V8.8l-4.6 4.6L5 12z"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
